@@ -1,7 +1,6 @@
 <body id="prime">
 	<header class="top">
-		<?php $this->load->view("menus/menu.html");?>
-
+		<span class="header">header</span><span class="menu"><?php $this->load->view("menus/menu.html");?></span>
 	</header>
 
 </body>
