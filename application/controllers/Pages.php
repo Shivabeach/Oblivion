@@ -8,7 +8,7 @@ class Pages extends CI_Controller {
 		$data["title"] = "Oblivion";
 		$data["header"] = "Page One";
 		$data["content"] = "pages/prime";
-		$this->load->view("templates/template", $data);
+		$this->load->view("template/template", $data);
 
 	}
 

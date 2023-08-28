@@ -1,4 +1,12 @@
+/** @format */
+
 @use '../abstracts' as *;
 /*
 	this page is for main body colors only
 */
+.prime {
+	background: $azure;
+}
+.top {
+	border: 1px solid $darkorange;
+}

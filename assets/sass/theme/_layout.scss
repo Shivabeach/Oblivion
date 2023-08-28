@@ -1,0 +1,10 @@
+/**
+ * Margins, paddings etc
+ * @format */
+
+@use '../abstracts' as *;
+
+.sub {
+	padding: 1rem;
+	background: darken($azure, 3%);
+}

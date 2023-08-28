@@ -26,11 +26,6 @@ $font-stack-courier-new: 'Courier New', 'Courier', 'Lucida Sans Typewriter',
 
 $font-stack-monaco: 'Monaco', 'Consolas', 'Lucida Console', monospace;
 
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
 //animations
 $base-duration: 350ms;
 $base-timing: ease;
