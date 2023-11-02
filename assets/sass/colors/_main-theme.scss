@@ -1,0 +1,25 @@
+/**
+ * main color themes
+ * @format
+ * */
+
+@use '../abstracts' as *;
+
+@use 'sass:color';
+
+/** this page is for main body colors only */
+.prime {
+	background: scale-color($gen26, $lightness: 80%);
+}
+.top {
+	border: 1px solid $darkorange;
+}
+.header-title {
+	color: complement($gen26);
+}
+.white {
+	background: $gen26;
+}
+#left-column {
+	background: #db992a;
+}

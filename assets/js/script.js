@@ -15,7 +15,7 @@ const f = new Intl.DateTimeFormat('en-us', {
 datey.innerText = f.format(today);
 
 let yer = new Date();
-copyr.innerHTML = `\u00A98/27/2023 - ${yer.getFullYear()}`; //copywright
+copyr.innerHTML = `\u00A92023 - ${yer.getFullYear()}`; //copywright
 
 for (let i = 0; i < document.links.length; i++) {
 	// this highlights the current active link

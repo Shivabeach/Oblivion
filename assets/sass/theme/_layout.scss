@@ -7,4 +7,9 @@
 .sub {
 	padding: 1rem;
 	background: darken($azure, 3%);
+	border: 1px solid invert($azure);
+}
+#left-column {
+	border: solid 1px $gen26;
+	padding: 1rem;
 }
