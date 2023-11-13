@@ -6,8 +6,16 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$data["title"] = "Oblivion";
-		$data["header"] = "Page One";
+		$data["header"] = "Mrwilson";
 		$data["content"] = "pages/prime";
+		$this->load->view("template/template", $data);
+
+	}
+	public function wilson()
+	{
+		$data["title"] = "Hober";
+		$data["header"] = "Hober Mallow";
+		$data["content"] = "pages/mrwilson";
 		$this->load->view("template/template", $data);
 
 	}
