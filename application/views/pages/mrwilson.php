@@ -7,8 +7,9 @@
 	<p>Edition	Windows 11 Pro</p>
 	<p>Version	23H2</p>
 	<p>Installed on	‎10/‎30/‎2023</p>
-	<p>OS build	22635.2700</p>
-	<p>Experience	Windows Feature Experience Pack 1000.22678.1000.0</p>
+	<p>OS build	22635.2771</p>
+	<p>Experience	Windows Feature Experience Pack 1000.22679.1000.0</p>
+
 </div>
 <main id="main">
 	<div class="sub subg-1">
@@ -24,7 +25,7 @@
 		<li>Asus Rog Strix B450-F Gaming </li>
 		<li>Dual Graphics board</li>
 		<li>Crucial RAM 32GB Kit (2x16GB) DDR4 3200MHz CL22</li>
-		<li>6.24tb Storage NVMe M.2 drives</li>
+		<li>3.5tb Storage NVMe M.2 drives</li>
 		<li>AMD Ryzen 7 2700X Eight-Core Processor 3.70 GHz</li>
 		<li>Rosewood Mid-Tower Quiet ATX Case, Black, Solid, Standard </li>
 		<li>MSI MPG A750GF Gaming Power Supply Full Modular</li>
@@ -43,10 +44,12 @@
 		<p>Currently, the Javascrip is the date and copyright in the section below. I will find more reasons to use it</p>
 	</div>
 	<div class="recap-grid3 sub">
-		<p>Samsung 1tb NVME E:/</p>
-		<p>Crucial 5 1tb NVME F:/</p>
-		<p>Sabrent 500gb NVME G:/</p>
-		<p>Samsung 500gb NVME H:/</p>
+		<p>Samsung 500gb NVME C:/</p>
+		<p>Crucual 500gb SSD E:/</p>
+		<p>Crucial 500gb SSD F:/</p>
+		<p>Crucial 500gb NVME G:/</p>
+		<p>Crucial 500gb SSD D:/</p>
+		<p>Seagate 1tb SCSI J:</p>
 		<p>Box Drive</p>
 		<p>Proton drive</p>
 	</div>
@@ -64,20 +67,20 @@
 	</div>
 	<div class="sub three">
 		<h4>Music</h4>
-		<p>Music is stored in CrucialP5 F Drive</p>
+		<p>Music is stored in Crucial SSD F Drive</p>
 	</div>
 	<div class="sub four">
 		<h4>Backups</h4>
-		<p>System backups are on Sam980 E Drive</p>
+		<p>System backups are on Seagate SCSI J Drive</p>
 	</div>
 	<div class="sub five">
 		<h4>Pictures & Video</h4>
-		<p>Pictures go to Sam500 H drive under Hadas</p>
+		<p>Pictures go to Crucial Workdisk G:</p>
 
 	</div>
 	<div class="sub six">
 		<h4>Documents</h4>
-		<p>Documents go to SAM500 H drive under Hadas</p>
+		<p>Documents go to Crucial Workdisk G:</p>
 	</div>
 
 </footer>
