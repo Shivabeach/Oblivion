@@ -3,13 +3,20 @@
  * @format */
 
 @use '../abstracts' as *;
-
 .sub {
 	padding: 1rem;
-	background: darken($azure, 3%);
+	background: #e0ffff;
 	border: 1px solid invert($azure);
 }
 #left-column {
 	border: solid 1px $gen26;
 	padding: 1rem;
+}
+
+.sub1 {
+	padding: 1rem;
+	background: #80bfbf;
+	border: 1px solid invert($azure);
+	outline-style: inset;
+	outline-width: 6px;
 }

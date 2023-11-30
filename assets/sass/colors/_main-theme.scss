@@ -8,9 +8,9 @@
 @use 'sass:color';
 
 /** this page is for main body colors only */
-.prime {
-	background: scale-color($gen26, $lightness: 80%);
-}
+// .prime {
+// 	background: scale-color($gen26, $lightness: 80%);
+// }
 .top {
 	border: 1px solid $darkorange;
 }
@@ -22,4 +22,13 @@
 }
 #left-column {
 	background: #db992a;
+}
+body {
+	background-image: linear-gradient(
+		to right,
+		#ffece0,
+		#80bfbf,
+		#aa7e64,
+		#368080
+	);
 }
