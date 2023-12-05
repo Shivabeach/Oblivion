@@ -6,8 +6,8 @@
 <div id="left-column">
 	<p>Edition	Windows 11 Pro</p>
 	<p>Version	23H2</p>
-	<p>Installed on	‎10/‎30/‎2023</p>
-	<p>OS build	22635.2700</p>
+	<p>Installed on	‎8/‎8/‎2023</p>
+	<p>OS build	22631.2792</p>
 	<p>Experience	Windows Feature Experience Pack 1000.22678.1000.0</p>
 	<p class="color-display"></p>
 
