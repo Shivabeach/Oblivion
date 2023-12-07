@@ -1,0 +1,1 @@
+!function(){document.querySelector(".submit"),document.querySelector("#date"),document.querySelector("#machine");document.querySelector("#form-update").addEventListener("submit",(function(e){}))}();

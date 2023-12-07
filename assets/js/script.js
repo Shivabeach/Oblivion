@@ -5,6 +5,7 @@
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
 const left = document.querySelector('#left-column');
+const leftColor = document.querySelector('#left-columns');
 
 //date format
 const today = new Date();
@@ -30,7 +31,22 @@ function random(min, max) {
 
 function randomRGB() {
   const rgb = `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
-  left.style.backgroundColor = rgb;
-  document.querySelector('.color-display').innerText = rgb;
+  if (left) {
+    left.style.backgroundColor = rgb;
+    document.querySelector('.color-display').innerText = rgb;
+  }
+  if (leftColor) {
+    leftColor.style.backgroundColor = rgb;
+    document.querySelector('.color-display').innerText = rgb;
+  }
 }
 randomRGB();
+
+// function randomsRGB() {
+//   const rgb = `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+//   if (leftColor) {
+//     leftColor.style.backgroundColor = rgb;
+//     document.querySelector('.color-display').innerText = rgb;
+//   }
+// }
+// randomsRGB();
