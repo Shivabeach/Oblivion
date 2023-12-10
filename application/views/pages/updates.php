@@ -11,14 +11,14 @@
 			<hr>
 			<p id="datey"></p>
 			<p class="copy"></p>
-			<p>Project start 8/27/2023</p>
+			<p class="project">Project start 8/27/2023</p>
 			<p class="color-display"></p>
 		</div>
 
 		<main class="update-display">
 			<!-- adding update displays here -->
 			<div class="up">
-				<p class="mach-updated">Hober</p>
+				<p class="mach-updated fs-3 bold-7">Hober</p>
 				<p class="event-date">8/4/2015 >> <span class="knowledge">KB159753</span></p>
 				<p class="update-text">Machine updated</p>
 			</div>

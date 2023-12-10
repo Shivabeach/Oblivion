@@ -112,11 +112,13 @@ body {
 /* Elements */
 p {
   margin-top: 0.75rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 blockquote {
   margin-left: 2rem;
-  border-left: 1px solid #d2691e;
+  border-left: 2px solid #d2691e;
   padding-left: 1rem;
 }
 
@@ -509,6 +511,13 @@ body {
 .design-color {
   color: rgb(201, 174, 20);
   text-shadow: 2px 2px 3px orange, -2px -2px 3px black;
+}
+
+#datey,
+.copy,
+.project,
+.color-display {
+  background-color: rgb(247, 202, 114);
 }
 
 /**
