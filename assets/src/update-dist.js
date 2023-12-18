@@ -1,1 +1,2 @@
-!function(){document.querySelector(".submit"),document.querySelector("#date"),document.querySelector("#machine");document.querySelector("#form-update").addEventListener("submit",(function(e){}))}();
+document.querySelector("#form-update").addEventListener("submit",(function(e){e.preventDefault();var t=document.querySelector("#date").value,u=document.querySelector("#machine").value,o=document.querySelector("#knowledge").value,r=document.querySelector("#reason").value;console.table(t,u,o,r)}));
+//# sourceMappingURL=update-dist.js.map

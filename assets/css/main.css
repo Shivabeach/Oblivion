@@ -476,6 +476,8 @@ li {
 
 .full-width {
   min-width: 100%;
+  border: 2px solid rgb(215, 134, 19);
+  border-radius: 1rem;
 }
 
 /**
@@ -518,6 +520,12 @@ body {
 .project,
 .color-display {
   background-color: rgb(247, 202, 114);
+}
+
+/** @format */
+.up {
+  border: 1px solid hsl(22, 95%, 42%);
+  border-radius: 1rem;
 }
 
 /**
@@ -641,7 +649,6 @@ body {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 0.25fr 0.25fr repeat(2, 1fr);
   width: 90%;
   margin: 0 auto;
   height: 100vh;

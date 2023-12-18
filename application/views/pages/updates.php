@@ -19,7 +19,8 @@
 			<!-- adding update displays here -->
 			<div class="up">
 				<p class="mach-updated fs-3 bold-7">Hober</p>
-				<p class="event-date">8/4/2015 >> <span class="knowledge">KB159753</span></p>
+				<p class="event-date">8/4/2015 </p>
+				<p class="knowledge">KB159753</p>
 				<p class="update-text">Machine updated</p>
 			</div>
 
@@ -27,5 +28,5 @@
 		</main>
 	</container>
 <script src="<?php echo base_url('assets/src/script-dist.js');?>"></script>
-
+<script src="<?php echo base_url('assets/src/update-dist.js');?>"></script>
 </body>
