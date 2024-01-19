@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * /* Config
  *
@@ -192,6 +193,10 @@ h6 {
   font-size: 0.75rem;
 }
 
+input {
+  border-radius: 20px;
+}
+
 button {
   font-family: "Consolas", "monaco", monospace;
   font-size: 18px;
@@ -215,7 +220,7 @@ input[type=checkbox] {
   height: 15px;
   background: white;
   position: relative;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 input[type=checkbox]:checked {
@@ -224,6 +229,29 @@ input[type=checkbox]:checked {
 
 label {
   display: block;
+}
+label:has(+ input:user-invalid):after {
+  content: " ❌";
+}
+label:has(+ input:user-valid):after {
+  content: " ✅";
+}
+
+select, textarea {
+  field-sizing: content;
+}
+
+textarea {
+  min-height: 2lh;
+  max-height: 10lh;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:user-valid {
+  border-color: green;
 }
 
 .input-small {

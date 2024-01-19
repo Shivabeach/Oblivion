@@ -2,22 +2,31 @@
 
 <fieldset>
 	<legend>Update History</legend>
-	<form id="form-update">
+
+	<?php
+	$args = [
+		"id" => "form_update"
+	];
+	echo form_open("forms/updater", $args);?>
 		<label for="machine">Machine</label>
-			<select name="" id="machine">
+		<?php echo form_error('computer'); ?>
+			<select name="computer" id="machine">
 				<option value="">Pick One</option>
 				<option value="Mrwilson">MrWilson</option>
 				<option value="Hober Mallow">Hober Mallow</option>
 			</select>
 
 		<label for="date">Date</label>
-			<input type="date" name="date" id="date" required>
+		<?php echo form_error('date'); ?>
+			<input type="date" name="date" id="date" required minlength="9">
 
 		<label for="knowledge">Knowledge base #</label>
-			<input type="text" name="" id="knowledge">
+		<?php echo form_error('Kbase'); ?>
+			<input type="text" name="Kbase" id="Kbase" required minlength="8">
 
 		<label for="reason">Update</label>
-			<textarea name="reason" id="reason" cols="30" rows="10"></textarea>
+		<?php echo form_error('reason'); ?>
+			<textarea name="reason" id="reason" required></textarea>
 
 		<button type="submit" class="submit">Submit</button>
 	</form>

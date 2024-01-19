@@ -25,7 +25,7 @@
 	<ul>
 		<li>Asus Prime B550-plus MB </li>
 		<li>Built in Graphics</li>
-		<li>Crucial RAM 32GB Kit (2x16GB) DDR4 3200MHz CL22</li>
+		<li>Crucial 32GB (2 x 16GB) 288-Pin PC RAM DDR4 2666 (PC4 21300) CT2K16G4DFRA266</li>
 		<li>3.5tb Storage NVMe M.2 drives</li>
 		<li>AMD Ryzen 5 5600G with Radeon Graphics 3.90 GHz</li>
 		<li>Corsair 110Q Mid-Tower Quiet ATX Case, Black, Solid, Standard </li>

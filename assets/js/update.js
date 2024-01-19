@@ -1,14 +1,40 @@
 /** @format */
-//const submit = document.querySelector('.submit');
-//const date = document.querySelector('#date');
-//const machine = document.querySelector('#machine');
-const formUpdate = document.querySelector('#form-update');
+const submit = document.querySelector('.submit');
+const formUpdate = document.querySelector('#form_update');
 
-formUpdate.addEventListener('submit', (e) => {
-	e.preventDefault();
-	const date = document.querySelector('#date').value;
-	const machine = document.querySelector('#machine').value;
-	const kBase = document.querySelector('#knowledge').value;
-	const update = document.querySelector('#reason').value;
-	console.table(date, machine, kBase, update);
+// formUpdate.addEventListener('submit', (e) => {
+// 	e.preventDefault();
+// 	const date = document.querySelector('#date').value;
+// 	const machine = document.querySelector('#machine').value;
+// 	const Kbase = document.querySelector('#Kbase').value;
+// 	const update = document.querySelector('#reason').value;
+// 	//console.table(date, machine, Kbase, update);
+// });
+$(function () {
+	'use strict';
+	$('#form_update').on('submit', function (e) {
+		e.preventDefault();
+		var that = $(this),
+			url = that.attr('action'),
+			type = that.attr('method'),
+			data = {};
+		that.find('[name]').each(function (index, value) {
+			var that = $(this),
+				name = that.attr('name'),
+				value = that.val();
+			data[name] = value;
+		});
+		$.ajax({
+			url: url,
+			type: type,
+			data: data,
+			success: function (response) {
+				$('#shows').html(response).fadeOut(7000);
+			},
+			error: function (response) {
+				$('#shows').html(response).fadeOut(7000);
+			},
+		});
+		return false;
+	});
 });

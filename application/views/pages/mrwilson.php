@@ -6,10 +6,10 @@
 <div id="left-column">
 	<p>Edition	Windows 11 Pro</p>
 	<p>Version	23H2</p>
-	<p>Installed on	‎10/‎30/‎2023</p>
-	<p>OS build	22635.2841</p>
-	<p>Experience	Windows Feature Experience Pack 1000.22680.1000.0</p>
-	<br>Updated 11/29/2023
+	<p>Installed on	‎1/‎12/‎2024</p>
+	<p>OS build	22631.3007</p>
+	<p>Experience	Windows Feature Experience Pack 1000.22681.1000.0</p>
+	<br>Updated 11/29/20230
 
 	<p class="color-display"></p>
 </div>

@@ -3,8 +3,7 @@
 //try accent-color: green on radio and check boxes
 
 input
-	//outline: 1px solid $vintage-red
-	//display: block
+	border-radius: 20px
 
 
 button
@@ -28,10 +27,27 @@ input[type=checkbox]
 	background: white
 	//margin: 20px 10px
 	position: relative
-	border-radius: 5px
+	border-radius: 50%
 
 input[type="checkbox"]:checked
 	background-color: green
 
 label
 	display: block
+	&:has(+ input:user-invalid):after
+		content: " ❌"
+	&:has(+ input:user-valid):after
+		content: " ✅"
+
+select, textarea
+	field-sizing: content
+
+textarea
+	min-height: 2lh
+	max-height: 10lh
+
+input:user-invalid
+	border-color: red
+
+input:user-valid
+	border-color: green
