@@ -21,11 +21,11 @@ class Pages extends CI_Controller {
 	}
 	public function updates()
 	{
+
 		$data["title"] = "Update Records";
 		$data["header"] = "Update Records";
 		$data["content"] = "pages/updates";
 		$this->load->view("template/template", $data);
-
 	}
 
 }

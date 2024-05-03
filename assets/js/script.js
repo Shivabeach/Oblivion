@@ -4,7 +4,7 @@
 
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
-const left = document.querySelector('#left-column');
+//const left = document.querySelector('#left-column');
 const leftColor = document.querySelector('#left-columns');
 
 //date format
@@ -29,18 +29,18 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function randomRGB() {
-  const rgb = `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
-  if (left) {
-    left.style.backgroundColor = rgb;
-    document.querySelector('.color-display').innerText = rgb;
-  }
-  if (leftColor) {
-    leftColor.style.backgroundColor = rgb;
-    document.querySelector('.color-display').innerText = rgb;
-  }
-}
-randomRGB();
+// function randomRGB() {
+//   const rgb = `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+//   if (left) {
+//     left.style.backgroundColor = rgb;
+//     document.querySelector('.color-display').innerText = rgb;
+//   }
+//   if (leftColor) {
+//     leftColor.style.backgroundColor = rgb;
+//     document.querySelector('.color-display').innerText = rgb;
+//   }
+// }
+// randomRGB();
 
 // function randomsRGB() {
 //   const rgb = `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
@@ -50,3 +50,35 @@ randomRGB();
 //   }
 // }
 // randomsRGB();
+
+// const date1 = new Date('7/13/2010');
+// const date2 = new Date('12/15/2010');
+// const diffTime = Math.abs(date2 - date1);
+// const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+// console.log(diffTime + " milliseconds");
+// console.log(diffDays + " days");
+
+// var day1 = new Date('08/25/2020');
+// var day2 = new Date('12/25/2021');
+
+// var difference = day2.getTime() - day1.getTime();
+
+// document.write(difference);
+// function isPrime(number) {
+//   if (number <= 1) {
+//     return false; // numbers less than or equal to 1 are not prime numbers
+//   }
+
+//   // Check from 2 to square root of number
+//   for (let i = 2; i <= Math.sqrt(number); i++) {
+//     if (number % i === 0) {
+//       return false; // number is divisible by another number, so it's not prime
+//     }
+//   }
+
+//   return true; // number is prime
+// }
+
+// // Example usage:
+// const numberToCheck = 28;
+// //console.log(`Is ${numberToCheck} a prime number?`, isPrime(numberToCheck));

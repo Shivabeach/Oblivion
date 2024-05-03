@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Forms extends CI_Controller {
 
-	public function updater()
+	public function changes()
 	{
 		$data = [
 			"computer" => trim($this->input->post("computer")),
@@ -21,7 +21,7 @@ class Forms extends CI_Controller {
       echo "error";
     }else {
       $this->db->insert("changes", $data);
-      $this->load->view("pages/updates");
+      // $this->load->view("pages/updates");
       echo "success";
 		}
 	}

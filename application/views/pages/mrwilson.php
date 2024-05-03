@@ -7,9 +7,9 @@
 	<p>Edition	Windows 11 Pro</p>
 	<p>Version	23H2</p>
 	<p>Installed on	‎1/‎12/‎2024</p>
-	<p>OS build	22631.3007</p>
-	<p>Experience	Windows Feature Experience Pack 1000.22681.1000.0</p>
-	<br>Updated 11/29/20230
+	<p>OS build	22631.3447</p>
+	<p>Experience	Windows Feature Experience Pack 1000.22688.1000.0</p>
+	<br>Updated 4/10/2024
 
 	<p class="color-display"></p>
 </div>
@@ -30,7 +30,7 @@
 		<li>3.5tb Storage NVMe M.2 drives</li>
 		<li>AMD Ryzen 7 2700X Eight-Core Processor 3.70 GHz</li>
 		<li>Rosewood Mid-Tower Quiet ATX Case, Black, Solid, Standard </li>
-		<li>MSI MPG A750GF Gaming Power Supply Full Modular</li>+
+		<li>MSI MPG A750GF Gaming Power Supply Full Modular</li>
 		<li>Memory Part #: CT16G4DFRA32A.C8FF</li>
 
 	</ul>

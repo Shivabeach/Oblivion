@@ -15,7 +15,7 @@ $(function () {
 	$('#form_update').on('submit', function (e) {
 		e.preventDefault();
 		var that = $(this),
-			url = that.attr('action'),
+			url = 'http://localhost/oblivion/forms/changes',
 			type = that.attr('method'),
 			data = {};
 		that.find('[name]').each(function (index, value) {
@@ -37,4 +37,9 @@ $(function () {
 		});
 		return false;
 	});
+});
+
+window.addEventListener('beforeunload', (e) => {
+	e.preventDefault();
+	return (e.returnValue = 'Are you sure you want to close?');
 });

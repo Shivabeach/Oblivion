@@ -9,7 +9,7 @@
 	$value: strip-units($value)
 	$base-font-size: strip-units($base-font-size)
 	$rem: 1rem
-	@return $value / $base-font-size * $rem
+	@return calc($value / $base-font-size) * $rem
 
 
 
@@ -26,7 +26,7 @@
 //function to convert px to vw
 @function get-vw($target)
 	$vw-context: 1000 * 0.01 * 1px
-	@return $target / $vw-context * 1vw
+	@return calc($target / $vw-context) * 1vw
 
 @function size($num)
 	@return #{$num / 2}vw

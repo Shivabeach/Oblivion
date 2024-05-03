@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/** @format */
+/** @format */
 /**
  * /* Config
  *
@@ -8,7 +10,8 @@
   font-family: slabo;
   src: url("../fonts/slabo.ttf");
 }
-/** @format */ /** @format */ /**
+/** @format */
+/**
  * Box sizing rules
  *
  * @format
@@ -78,6 +81,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/** @format */
 /* body */
 html,
 body {
@@ -110,6 +114,7 @@ body {
     scrollbar-width: auto;
   }
 }
+/** @format */
 /* Elements */
 p {
   margin-top: 0.75rem;
@@ -123,6 +128,7 @@ blockquote {
   padding-left: 1rem;
 }
 
+/** @format */
 /* Links */
 a {
   color: #8c353d;
@@ -143,6 +149,7 @@ header a:link {
   padding: 5px 8px;
 }
 
+/** @format */
 /* typography */
 h1,
 h2 {
@@ -193,6 +200,7 @@ h6 {
   font-size: 0.75rem;
 }
 
+/** @format */
 input {
   border-radius: 20px;
 }
@@ -254,6 +262,7 @@ input:user-valid {
   border-color: green;
 }
 
+/** @format */
 .input-small {
   width: 10%;
 }
@@ -434,6 +443,8 @@ input:user-valid {
   padding: 10rem;
 }
 
+/** @format */
+/** @format */
 /*list properties */
 ul {
   margin-left: 0;
@@ -458,7 +469,9 @@ li {
   font-size: 2.25rem;
 }
 
+/** @format */
 /*Cards */
+/** @format */
 /*Common*/
 .underline {
   border-bottom: 1px solid #000;
@@ -508,6 +521,7 @@ li {
   border-radius: 1rem;
 }
 
+/** @format */
 /**
  * main color themes
  * @format
@@ -533,14 +547,15 @@ body {
   background-image: linear-gradient(to right, #ffece0, #80bfbf, #aa7e64, #368080);
 }
 
+/** @format */
 .dark {
   background-color: #381B6C;
   color: white;
 }
 
 .design-color {
-  color: rgb(201, 174, 20);
-  text-shadow: 2px 2px 3px orange, -2px -2px 3px black;
+  color: #3d0c02;
+  text-shadow: 2px 2px 3px orange;
 }
 
 #datey,
@@ -550,12 +565,23 @@ body {
   background-color: rgb(247, 202, 114);
 }
 
+.sub1, #left-column {
+  color: #e0ffff;
+  background: #3d0c02;
+}
+
+.sub {
+  background: #deaa88;
+}
+
+/** @format */
 /** @format */
 .up {
   border: 1px solid hsl(22, 95%, 42%);
   border-radius: 1rem;
 }
 
+/** @format */
 /**
  * All prime container properties
  *
@@ -700,6 +726,7 @@ body {
   grid-row: 3/5;
 }
 
+/** @format */
 /* Calendar if needed */
 .calendar {
   background: #CFC79E;
@@ -750,12 +777,15 @@ th {
   color: #1864ab;
 }
 
-/** @format */ /**
+/** @format */
+/** @format */
+/** @format */
+/** @format */
+/**
  * Margins, paddings etc
  * @format */
 .sub {
   padding: 1rem;
-  background: #e0ffff;
   border: 1px solid #0f0000;
 }
 
@@ -766,12 +796,9 @@ th {
 
 .sub1 {
   padding: 1rem;
-  background: #80bfbf;
   border: 1px solid #0f0000;
   outline-style: inset;
   outline-width: 6px;
 }
-
-/** @format */ /** @format */
 
 /*# sourceMappingURL=main.css.map */

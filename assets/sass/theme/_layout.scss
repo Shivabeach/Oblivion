@@ -5,7 +5,7 @@
 @use '../abstracts' as *;
 .sub {
 	padding: 1rem;
-	background: #e0ffff;
+
 	border: 1px solid invert($azure);
 }
 #left-column {
@@ -15,7 +15,6 @@
 
 .sub1 {
 	padding: 1rem;
-	background: #80bfbf;
 	border: 1px solid invert($azure);
 	outline-style: inset;
 	outline-width: 6px;
