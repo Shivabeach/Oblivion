@@ -27,7 +27,7 @@
 		<li>Asus Rog Strix B450-F Gaming </li>
 		<li>Dual Graphics board</li>
 		<li>Crucial RAM 32GB Kit (2x16GB) DDR4 3200MHz CL22</li>
-		<li>3.5tb Storage NVMe M.2 drives</li>
+		<li>2tb Storage NVMe M.2 drives</li>
 		<li>AMD Ryzen 7 2700X Eight-Core Processor 3.70 GHz</li>
 		<li>Rosewood Mid-Tower Quiet ATX Case, Black, Solid, Standard </li>
 		<li>MSI MPG A750GF Gaming Power Supply Full Modular</li>
@@ -48,13 +48,11 @@
 	</div>
 	<div class="recap-grid3 sub">
 		<h4 class="design-color">Drives</h4>
-		<p>Samsung 500gb NVME C:/</p>
-		<p>Crucual 500gb SSD E:/</p>
-		<p>Crucial 500gb SSD F:/</p>
-		<p>Crucial 500gb NVME G:/</p>
-		<p>Crucial 500gb SSD D:/</p>
+		<p>Samsung SSD 970 EVO Plus 500GB C:/</p>
+		<p>Samsung SSD 970 EVO Plus 500GB G:/</p>
+		<p>Crucial 500gb SSD H:/</p>
+		<p>Crucial 500gb SSD K:/</p>
 		<p>Seagate 1tb SCSI J:</p>
-		<p>Box Drive</p>
 		<p>Proton drive</p>
 	</div>
 </div>
@@ -71,7 +69,7 @@
 	</div>
 	<div class="sub1 three">
 		<h4>Music</h4>
-		<p>Music is stored in Crucial SSD F Drive</p>
+		<p>Music is stored in Crucial SSD H Drive</p>
 	</div>
 	<div class="sub1 four">
 		<h4>Backups</h4>

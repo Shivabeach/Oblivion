@@ -6,7 +6,7 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$data["title"] = "Oblivion";
-		$data["header"] = "Mrwilson";
+		$data["header"] = "Oblivion";
 		$data["content"] = "pages/prime";
 		$this->load->view("template/template", $data);
 
