@@ -7,7 +7,7 @@
 	$args = [
 		"id" => "form_update"
 	];
-	echo form_open("forms/updater", $args);?>
+	echo form_open("forms/changes", $args);?>
 		<label for="machine">Machine</label>
 		<?php echo form_error('computer'); ?>
 			<select name="computer" id="machine">
@@ -22,7 +22,7 @@
 
 		<label for="knowledge">Knowledge base #</label>
 		<?php echo form_error('Kbase'); ?>
-			<input type="text" name="Kbase" id="Kbase" required minlength="8">
+			<input type="text" name="Kbase" id="Kbase" minlength="8">
 
 		<label for="reason">Update</label>
 		<?php echo form_error('reason'); ?>

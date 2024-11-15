@@ -9,9 +9,15 @@
 
 		<fieldset>
 			<legend>Update History</legend>
-
-			<!-- echo form_open("forms/changes", $args); -->
-			<form action="" id="form_update">
+<!--
+            <?php $args = [
+                "id" => "form_update"
+                ];
+            
+			 echo form_open("forms/changes", $args); 
+            ?>
+-->
+            <form action="<?php echo 'forms/changes?';?>" id="form_update">
 			<label for="machine">Machine</label>
 			<?php echo form_error('computer'); ?>
 			<select name="computer" id="machine">
@@ -26,7 +32,7 @@
 
 			<label for="knowledge">Knowledge base #</label>
 			<?php echo form_error('Kbase'); ?>
-			<input type="text" name="Kbase" id="Kbase" required minlength="8">
+			<input type="text" name="Kbase" id="Kbase" minlength="8">
 
 			<label for="reason">Update</label>
 			<?php echo form_error('reason'); ?>
