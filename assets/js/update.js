@@ -2,20 +2,20 @@
 const submit = document.querySelector('.submit');
 const formUpdate = document.querySelector('#form_update');
 
-// formUpdate.addEventListener('submit', (e) => {
-// 	e.preventDefault();
-// 	const date = document.querySelector('#date').value;
-// 	const machine = document.querySelector('#machine').value;
-// 	const Kbase = document.querySelector('#Kbase').value;
-// 	const update = document.querySelector('#reason').value;
-// 	//console.table(date, machine, Kbase, update);
-// });
+formUpdate.addEventListener('submit', (e) => {
+	e.preventDefault();
+	const date = document.querySelector('#date').value;
+	const machine = document.querySelector('#machine').value;
+	const Kbase = document.querySelector('#Kbase').value;
+	const update = document.querySelector('#reason').value;
+	//console.table(date, machine, Kbase, update);
+});
 $(function () {
 	'use strict';
 	$('#form_update').on('submit', function (e) {
 		e.preventDefault();
 		var that = $(this),
-			url = 'http://localhost/oblivion/forms/changes',
+			url = that.attr('action'),
 			type = that.attr('method'),
 			data = {};
 		that.find('[name]').each(function (index, value) {
@@ -39,7 +39,7 @@ $(function () {
 	});
 });
 
-window.addEventListener('beforeunload', (e) => {
-	e.preventDefault();
-	return (e.returnValue = 'Are you sure you want to close?');
-});
+// window.addEventListener('beforeunload', (e) => {
+// 	e.preventDefault();
+// 	return (e.returnValue = 'Are you sure you want to close?');
+// });
