@@ -257,6 +257,9 @@ textarea {
 input:user-invalid {
   border-color: red;
 }
+input:user-invalid:has(+ input:user-invalid):after {
+  content: " ❌";
+}
 
 input:user-valid {
   border-color: green;

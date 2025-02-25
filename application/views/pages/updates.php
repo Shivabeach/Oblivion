@@ -45,7 +45,7 @@
 			<p id="datey"></p>
 			<p class="copy"></p>
 			<p class="project">Project start 8/27/2023</p>
-			<p class="color-display"></p>
+			<p id="shows"></p>
 		</div>
 		<main class="update-display">
 			<!-- adding update displays here -->

@@ -5,8 +5,8 @@
 	</header>
 <div id="left-column">
 	<p>Edition	Windows 11 Pro</p>
-	<p>Version	23H2</p>
-	<p>Installed on	‎8/‎8/‎2023</p>
+	<p>Version	24H2</p>
+	<p>Installed on	2/‎24/‎2025</p>
 	<p>OS build	22631.2792</p>
 	<p>Experience	Windows Feature Experience Pack 1000.22678.1000.0</p>
 	<p class="color-display"></p>
@@ -39,6 +39,7 @@
 		<h4 class="design-color">Recap One</h4>
 		<p>This pages made on a Windows 11 rig with Sublime text & Prepros</p>
 		<p>It utilizes SCSS and SASS, as well as some Javascript</p>
+		<p>Updated to 24H2 on 2/24/2025 with installation assistant</p>
 	</div>
 	<div class="recap-grid2 sub">
 		<h4 class="design-color">Javascript</h4>

@@ -12,7 +12,7 @@ formUpdate.addEventListener('submit', (e) => {
 });
 $(function () {
 	'use strict';
-	$('#form_update').on('submit', function (e) {
+	$(formUpdate).on('submit', function (e) {
 		e.preventDefault();
 		var that = $(this),
 			url = that.attr('action'),
