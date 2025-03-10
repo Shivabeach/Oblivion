@@ -49,17 +49,18 @@
 	<div class="recap-grid3 sub">
 		<h4 class="design-color">Drives</h4>
 		<p>Samsung SSD 970 EVO Plus 500GB C:/</p>
-		<p>Samsung SSD 970 EVO Plus 500GB G:/</p>
+		<p>Samsung SSD 970 EVO Plus 500GB G:/(Linux Mint)</p>
 		<p>Crucial 500gb SSD H:/</p>
 		<p>Crucial 500gb SSD K:/</p>
 		<p>Seagate 1tb SCSI J:</p>
+		<p>Silicon Power 1TB SSD L:</p>
 		<p>Proton drive</p>
 	</div>
 </div>
 <footer id="main-footer">
 	<div class="sub1 one">
 		<h4>Downloads</h4>
-		<p>Downloads go to G:Downloads" Workdisk G Drive </p>
+		<p>Downloads go to K:Downloads Storage 2 Drive </p>
 	</div>
 
 </div>
@@ -73,16 +74,16 @@
 	</div>
 	<div class="sub1 four">
 		<h4>Backups</h4>
-		<p>System backups are on Seagate SCSI J Drive</p>
+		<p>System backups are on Silicon Power 1TB SSD L:</p>
 	</div>
 	<div class="sub1 five">
 		<h4>Pictures & Video</h4>
-		<p>Pictures go to Crucial Workdisk G:</p>
+		<p>Pictures go to K: pictures</p>
 
 	</div>
 	<div class="sub1 six">
 		<h4>Documents</h4>
-		<p>Documents go to Crucial Workdisk G:</p>
+		<p>Documents go to K:Hober documents</p>
 	</div>
 
 </footer>

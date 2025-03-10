@@ -15,7 +15,7 @@
 					"id" => "form_update"
 				];
 				
-				echo form_open("forms/changes", $args);?>
+				echo form_open("pages/changes", $args);?>
 
 				<label for="machine">Machine</label>
 				<?php echo form_error('computer'); ?>
