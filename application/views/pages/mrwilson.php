@@ -16,6 +16,8 @@
 	<div class="sub subg-1">
 		<h2>History</h2>
 		<p>This page updated 8/22/2025. New motherboard, liquid cooled processor</p>
+		<p>9/15/2025 Lots of problems, 32 second startup, driver, monitor problems<br>
+		purchased new monitor today</p>
 
 
 	</div>
