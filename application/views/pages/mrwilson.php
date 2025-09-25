@@ -18,6 +18,7 @@
 		<p>This page updated 8/22/2025. New motherboard, liquid cooled processor</p>
 		<p>9/15/2025 Lots of problems, 32 second startup, driver, monitor problems<br>
 		purchased new monitor today</p>
+		<p>New Monitor and graphics card solves the dimming problem</p>
 
 
 	</div>
@@ -25,13 +26,14 @@
 		<h4>The Rig</h4>
 	<ul>
 		<li>Asus Prime B650M A AX II </li>
-		<li>Dual Graphics board</li>
+		<li>XFX Radeon RX 580 GTS XXX Edition(9/18/2025)</li>
 		<li>Crucial RAM 32GB Kit (2x16GB) DDR5 5600MHz CL46</li>
 		<li>2.5tb Storage NVMe M.2 drives</li>
 		<li>AMD Ryzen 5 7600X Six-Core Processor 4.7 GHz</li>
 		<li>Rosewood Mid-Tower Quiet ATX Case, Black, Solid, Standard </li>
 		<li>MSI MPG A750GF Gaming Power Supply Full Modular</li>
-		<li>Crucial Pro 32GB DDR5 RAM Kit (2x16GB), 5600MHz (or 5200MHz or 4800MHz) Desktop Memory UDIMM 288-pin, CP2K16G56C46U5 </li>
+		<li>Crucial Pro 64GB DDR5 RAM Kit (2x16GB), 5600MHz (or 5200MHz or 4800MHz) Desktop Memory UDIMM 288-pin, CP2K16G56C46U5 </li>
+		<li>SAMSUNG 27" (S30GD) Essential Monitor with IPS Panel </li>
 
 	</ul>
 	</div>
