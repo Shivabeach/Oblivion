@@ -5,8 +5,9 @@
 	</header>
 <div id="left-column">
 	<p>Edition	Windows 11 Pro</p>
-	<p>Version	24H2</p>
+	<p>Version	25H2</p>
 	<p>Installed on	‎1/‎12/‎2024</p>
+	<p>Updated to 25H2 10/1/2025</p>
 	<p>OS build	26100.4770</p>
 	<p>Updated 8/22/2025</p>
 
@@ -19,6 +20,7 @@
 		<p>9/15/2025 Lots of problems, 32 second startup, driver, monitor problems<br>
 		purchased new monitor today</p>
 		<p>New Monitor and graphics card solves the dimming problem</p>
+		<p>10/1/2025 reinstalled Windows 11 to get rid of the problems. Now up to 25H2</p>
 
 
 	</div>
